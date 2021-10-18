@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+  <meta charset="UTF-8"/>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+<!--
+Copyright (c) 2016, 2024, 5 Mode
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+  * Neither 5 Mode nor the names of its contributors 
+    may be used to endorse or promote products derived from this software 
+    without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+https://opensource.org/licenses/BSD-3-Clause -->
+  
+  <title>Niknkn: Use it or contat us for paid service.</title>
+	
+  <link rel="shortcut icon" href="favicon.ico" />
+  
+  <meta name="title" content="Niknkn | 5 Mode"/>
+  <meta name="description" content="制作您自己的 facebook 浏览器."/>
+  <meta name="keywords" content="Niknkn,facebook, 画廊, 浏览器, explorer, navigator"/>
+  <meta name="robots" content="index,follow"/>
+  <meta name="author" content="5 Mode"/> 
+  
+  <script src="/js/jquery-3.1.0.min.js" type="text/javascript"></script>
+  <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+
+  <script src="/js/index.js" type="text/javascript"></script>
+
+  <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="/css/style.css" type="text/css" rel="stylesheet">      
+
+</head>
+
+<body style="background-color: lightgray; font-size:18px;">
+
+<!-- <div id="butParent" title="Return to parent">
+    <a href="http://5mode.com"><img src="/res/parent.png" style="width:54px; height:46px; margin:20px" alt="Go to parent"></a>
+  </div> -->
+
+ <div class="body-area" style="border:0px solid green; height: 900px;">
+
+  <div class="content-area" style="display:table; height: min-content; border:0px solid red;">
+
+<div id="burgerMenuIco" onclick="popupMenu()" style="claer:both;position:absolute; top:40px; left:30px; border: 0px solid yellow; margin:0; padding: 0px; z-index:99997;">
+  <img src="/res/burger-menu2.png" style="background: #FFFFFF; width:42px; height:35px;" alt="burger menu">
+</div>
+
+<div class="appMenu" style="position:absolute; top:80px; left:30px; display:none; background-color:#ffffff; width:380px; margin:0; padding: 0px; border: 2px solid darkgray;font-family: Sans, Verdana, Serif;font-size:12px;font-weight:500;"><!-- Here goes the content of the AppMenu --></div>
+
+    
+    <div class="box" align="center" style="border:0; padding: 0;">
+
+    <div class="content-area" style="width:100%;border: 0px solid red;">
+
+      <br><br><br><br>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-strd" style="float:none; border: 0px solid yellow;">
+
+        <form id="frmSearch" class="box-centrd-search box-centrd-align-cent" style="display: table; border: 0px solid pink; height: 100%;">
+
+          <div id="logo-place" class="form-group" style="background-image: url('/res/moon.png'); background-size: 400px; background-repeat: no-repeat; background-position-x: 55%; width: 500px; height: 400px; float:none; clear:both; margin:auto; border: 0px solid green;">
+            
+            <span>
+                <span style="vertical-align: top; font-family: serif, sans-serif, sans; font-style: normal; font-size: 10px;">
+                  <a  style="cursor:pointer" href="http://niknkn.com"><img id="logo" src="res/logo_nikn_tr.png" alt="NIKNKN"></a><span style="white-space: nowrap;vertical-align: middle;"><span style="position: relative; left: -15px; vertical-align: middle; font-family: sans, verdana, serif; font-size: 9px;">Powered by</span>&nbsp;&nbsp;<a href="http://5mode.com" style="cursor:pointer; position: relative; top: +2px;left: -15px; font-weight:900;text-decoration:none;">5 Mode</a></span>
+                </span>
+            </span>
+            
+            <br><br>  
+            
+                        
+            <br>
+            
+            <div class="col-xs-11 col-sm-5 col-md-5 col-lg-5 col-haligned" style="float: none;">
+              <div class="col-haligned" style="align: center; display: table; text-align: left; font-size: 10px; width:180px;">我们<b>不</b>获取成人和新闻等敏感内容.<br>内容<b>必须</b>是对外开放的才可以被获取.</div>
+            </div>
+            
+                        
+            <br><br>
+            
+          </div>
+
+          <div class="form-group">
+
+            <div id="invite-text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-haligned input-group" style="font-size:0.8vw;font-weight:200;padding:20px;">
+
+              <br><br><br>
+
+              Please <a href="mailto:niknkn@aol.com">write us</a> with the Facebook url we need to fetch for you.
+            
+            </div>
+          
+            <br>
+            
+          </div>
+
+          <br>
+
+          </form> 
+        
+      </div>
+      
+    </div>  
+
+    </div>
+
+      
+       
+      </div>
+
+<!--  <div id="qrcodeCont" style="float:bottom; clear: both; display: table; width: 100%; text-align: center;">
+    
+    <div style="display: block;"><img src="/res/qrcode_nikn.png" style="border: 0px solid black;" alt="qrcode" width="100px" height="100px"></div>
+
+    <span id="qrcodeTitle" style="position: relative; top: +3px; opacity: 0.8; color: black">NIKNKN</span>
+
+  </div>-->
+
+  </div>
+
+  <div id="footerCont">&nbsp;</div>
+  <div id="footer"><span style="background:#FFFFFF; opacity:0.7;">&nbsp;&nbsp;<a class="aaa" href="dd.html">Disclaimer</a>.&nbsp;&nbsp;A <a href="http://5mode.com" class="aaa">5 Mode</a> project and <a href="http://wysiwyg.systems" class="aaa">WYSIWYG</a> system. Some rights reserved.</span></div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(83813320, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/83813320" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  
+</body>  
+</html>
